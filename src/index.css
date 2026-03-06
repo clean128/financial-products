@@ -1,0 +1,9 @@
+@import './styles/global.css';
+@import './styles/header.css';
+@import './styles/hero.css';
+@import './styles/products.css';
+@import './styles/form.css';
+@import './styles/qr.css';
+@import './styles/footer.css';
+@import './styles/modal.css';
+@import './styles/responsive.css';

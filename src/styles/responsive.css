@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+  .hero-content { grid-template-columns: 1fr; gap: 40px; }
+  .hero-visual { order: -1; }
+  .hero-card-stack { max-width: 400px; }
+  .form-wrapper { grid-template-columns: 1fr; gap: 40px; }
+}
+
+@media (max-width: 768px) {
+  .section { padding: 48px 0; }
+  .container { padding: 0 16px; }
+  .hero-stats { flex-wrap: wrap; gap: 24px; }
+  .hero-floating-card { display: none; }
+  .form-grid { grid-template-columns: 1fr; }
+  .form-container { padding: 24px; }
+  .products-grid { grid-template-columns: 1fr; }
+  .footer-content { flex-direction: column; }
+  .footer-bottom { flex-direction: column; text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .hero-buttons { flex-direction: column; }
+  .hero-buttons .btn-primary,
+  .hero-buttons .btn-secondary { width: 100%; justify-content: center; }
+  .mobile-menu-btn { display: block; }
+  .header-cta { display: none; }
+}
