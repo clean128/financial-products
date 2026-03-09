@@ -23,7 +23,7 @@ export default function QRSection() {
               value={LANDING_URL}
               size={200}
               bgColor="#ffffff"
-              fgColor="#0A1628"
+              fgColor="#444545"
               level="H"
               includeMargin={false}
             />

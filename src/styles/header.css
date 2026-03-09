@@ -4,13 +4,13 @@
   left: 0;
   right: 0;
   z-index: 100;
-  padding: 16px 0;
+  padding: 12px 0;
+  background: var(--primary);
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 .header.scrolled {
-  background: rgba(10, 22, 40, 0.95);
-  backdrop-filter: blur(12px);
+  background: var(--primary-dark);
   box-shadow: var(--shadow-md);
 }
 
@@ -29,20 +29,20 @@
 .logo-icon {
   width: 40px;
   height: 40px;
-  background: var(--gradient-blue);
+  background: var(--gradient-gold);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
   font-size: 20px;
-  color: white;
+  color: var(--primary-dark);
 }
 
 .logo-text {
   font-size: 18px;
   font-weight: 700;
-  color: var(--text-primary);
+  color: #ffffff;
 }
 
 .logo-text span {
@@ -52,15 +52,15 @@
 .mobile-menu-btn {
   display: none;
   background: transparent;
-  color: var(--text-primary);
+  color: #ffffff;
   padding: 8px;
 }
 
 .header-cta {
-  background: var(--gradient-blue);
-  color: white;
+  background: var(--gradient-gold);
+  color: var(--primary-dark);
   padding: 10px 24px;
-  border-radius: var(--radius-sm);
+  border-radius: 50px;
   font-weight: 600;
   font-size: 14px;
   transition: transform 0.2s, box-shadow 0.2s;

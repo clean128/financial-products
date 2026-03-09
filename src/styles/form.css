@@ -11,9 +11,10 @@
 
 .form-info-title {
   font-size: clamp(1.75rem, 3vw, 2.5rem);
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 20px;
   line-height: 1.2;
+  color: var(--primary);
 }
 
 .form-info-desc {
@@ -30,7 +31,7 @@
   align-items: center;
   gap: 14px;
   padding: 14px 18px;
-  background: var(--bg-card);
+  background: var(--bg-secondary);
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
 }
@@ -38,16 +39,16 @@
 .form-benefit-icon {
   width: 40px;
   height: 40px;
-  background: rgba(59, 130, 246, 0.1);
+  background: rgba(229, 197, 118, 0.12);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--accent);
+  color: var(--accent-dark);
   flex-shrink: 0;
 }
 
-.form-benefit-text { font-size: 14px; font-weight: 500; }
+.form-benefit-text { font-size: 14px; font-weight: 500; color: var(--primary); }
 
 .form-container {
   background: var(--bg-card);
@@ -57,12 +58,12 @@
   box-shadow: var(--shadow-lg);
 }
 
-.form-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+.form-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; color: var(--primary); }
 .form-subtitle { font-size: 14px; color: var(--text-muted); margin-bottom: 28px; }
 
 .form-type-toggle {
   display: flex;
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
   border-radius: var(--radius-sm);
   padding: 4px;
   margin-bottom: 24px;
@@ -79,7 +80,7 @@
   transition: all 0.2s;
 }
 
-.form-type-btn.active { background: var(--accent); color: white; }
+.form-type-btn.active { background: var(--primary); color: white; }
 
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .form-group { display: flex; flex-direction: column; gap: 6px; }
@@ -89,7 +90,7 @@
 .form-input,
 .form-select {
   padding: 12px 16px;
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   color: var(--text-primary);
@@ -100,7 +101,7 @@
 .form-input:focus,
 .form-select:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+  box-shadow: 0 0 0 3px rgba(229, 197, 118, 0.15);
 }
 
 .form-input::placeholder { color: var(--text-muted); }
@@ -108,7 +109,7 @@
 .form-select {
   appearance: none;
   cursor: pointer;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2364748B' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23888888' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 12px center;
   padding-right: 36px;
@@ -119,9 +120,9 @@
 .form-submit {
   width: 100%;
   padding: 14px;
-  background: var(--gradient-blue);
+  background: var(--gradient-dark);
   color: white;
-  border-radius: var(--radius-sm);
+  border-radius: 50px;
   font-weight: 700;
   font-size: 15px;
   display: flex;
@@ -129,11 +130,11 @@
   justify-content: center;
   gap: 8px;
   margin-top: 8px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.3s ease, opacity 0.3s;
   grid-column: 1 / -1;
 }
 
-.form-submit:hover { transform: translateY(-2px); box-shadow: var(--shadow-glow); }
+.form-submit:hover { transform: translateY(-2px); opacity: 0.9; }
 .form-submit:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
 
 .form-disclaimer {

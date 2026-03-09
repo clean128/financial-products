@@ -1,5 +1,5 @@
 .footer {
-  background: var(--bg-secondary);
+  background: #eef2f5;
   border-top: 1px solid var(--border);
   padding: 48px 0 24px;
 }
@@ -15,6 +15,9 @@
 
 .footer-brand { max-width: 320px; }
 
+.footer .logo-text { color: var(--primary); }
+.footer .logo-text span { color: var(--accent-dark); }
+
 .footer-brand-desc {
   font-size: 14px;
   color: var(--text-secondary);
@@ -26,7 +29,7 @@
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 16px;
-  color: var(--text-primary);
+  color: var(--primary);
 }
 
 .footer-links-group a {
@@ -37,20 +40,20 @@
   transition: color 0.2s;
 }
 
-.footer-links-group a:hover { color: var(--accent); }
+.footer-links-group a:hover { color: var(--accent-dark); }
 
 .footer-disclaimer {
   font-size: 12px;
   color: var(--text-muted);
   line-height: 1.6;
   text-align: center;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid #ddd;
   padding: 16px 0;
   margin-bottom: 0;
 }
 
 .footer-bottom {
-  border-top: 1px solid var(--border);
+  border-top: 1px solid #ddd;
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -65,17 +68,20 @@
 .footer-social a {
   width: 36px;
   height: 36px;
-  background: var(--bg-card);
+  background: #ffffff;
   border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-secondary);
-  transition: color 0.2s, border-color 0.2s;
+  color: var(--primary);
+  transition: all 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .footer-social a:hover {
-  color: var(--accent);
+  background: var(--accent);
+  color: #fff;
   border-color: var(--accent);
+  transform: translateY(-3px);
 }

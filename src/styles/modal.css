@@ -1,7 +1,7 @@
 .success-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(10, 22, 40, 0.9);
+  background: rgba(68, 69, 69, 0.7);
   backdrop-filter: blur(8px);
   z-index: 200;
   display: flex;
@@ -24,6 +24,7 @@
   max-width: 480px;
   width: 90%;
   animation: slideUp 0.4s ease;
+  box-shadow: var(--shadow-lg);
 }
 
 @keyframes slideUp {
@@ -43,7 +44,7 @@
   color: var(--success);
 }
 
-.success-title { font-size: 24px; font-weight: 800; margin-bottom: 12px; }
+.success-title { font-size: 24px; font-weight: 700; margin-bottom: 12px; color: var(--primary); }
 
 .success-text {
   font-size: 15px;
@@ -53,10 +54,16 @@
 }
 
 .success-btn {
-  background: var(--gradient-blue);
+  background: var(--gradient-dark);
   color: white;
   padding: 12px 32px;
-  border-radius: var(--radius-sm);
+  border-radius: 50px;
   font-weight: 600;
   font-size: 14px;
+  transition: transform 0.3s ease, opacity 0.3s;
+}
+
+.success-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
 }
