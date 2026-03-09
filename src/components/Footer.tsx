@@ -49,6 +49,12 @@ export default function Footer() {
           </div>
         </div>
 
+        <div className="footer-disclaimer">
+          A Maximo Conceito Assessoria não é um banco ou uma instituição financeira.
+          Oferecemos uma plataforma de acesso ao crédito para pessoas físicas e jurídicas.
+          Somos um correspondente bancário.
+        </div>
+
         <div className="footer-bottom">
           <span className="footer-copyright">
             &copy; {new Date().getFullYear()} Maximo Conceito Assessoria. Todos os direitos reservados.

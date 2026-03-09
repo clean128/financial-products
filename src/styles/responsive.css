@@ -18,6 +18,7 @@
 }
 
 @media (max-width: 480px) {
+  .hero-visual { display: none; }
   .hero-buttons { flex-direction: column; }
   .hero-buttons .btn-primary,
   .hero-buttons .btn-secondary { width: 100%; justify-content: center; }

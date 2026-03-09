@@ -13,16 +13,28 @@ export interface Product {
 
 export const PRODUCTS: Product[] = [
   {
-    id: 'financiamento-imobiliario',
-    name: 'Financiamento Imobiliário',
-    desc: 'Realize o sonho do imóvel próprio com as melhores condições do mercado.',
-    icon: Home,
+    id: 'capital-giro',
+    name: 'Capital de Giro',
+    desc: 'Crédito para manter e expandir as operações do seu negócio.',
+    icon: CircleDollarSign,
   },
   {
     id: 'home-equity',
     name: 'Home Equity',
     desc: 'Use seu imóvel como garantia e tenha acesso a crédito com taxas reduzidas.',
     icon: Landmark,
+  },
+  {
+    id: 'financiamento-veiculos',
+    name: 'Financiamento e Refinanciamento de Veículos',
+    desc: 'Financie ou refinancie veículos e frotas com as melhores taxas.',
+    icon: Car,
+  },
+  {
+    id: 'financiamento-imobiliario',
+    name: 'Financiamento Imobiliário',
+    desc: 'Realize o sonho do imóvel próprio com as melhores condições do mercado.',
+    icon: Home,
   },
   {
     id: 'credito-construcao',
@@ -49,22 +61,10 @@ export const PRODUCTS: Product[] = [
     icon: Users,
   },
   {
-    id: 'financiamento-veiculos',
-    name: 'Financiamento e Refinanciamento de Veículos',
-    desc: 'Financie ou refinancie veículos e frotas com as melhores taxas.',
-    icon: Car,
-  },
-  {
     id: 'garantia-veiculo',
     name: 'Empréstimo com Garantia de Veículo',
     desc: 'Utilize seu veículo como garantia para obter crédito com juros reduzidos.',
     icon: Wallet,
-  },
-  {
-    id: 'capital-giro',
-    name: 'Capital de Giro',
-    desc: 'Crédito para manter e expandir as operações do seu negócio.',
-    icon: CircleDollarSign,
   },
   {
     id: 'antecipacao-recebiveis',
