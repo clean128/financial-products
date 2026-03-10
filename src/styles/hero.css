@@ -5,7 +5,7 @@
   position: relative;
   overflow: hidden;
   padding-top: 80px;
-  background-color: #fff;
+  background-color: var(--bg-primary);
 }
 
 .hero-bg {
@@ -65,7 +65,7 @@
   font-weight: 700;
   line-height: 1.15;
   margin-bottom: 20px;
-  color: var(--primary);
+  color: var(--text-primary);
 }
 
 .hero-title .highlight {
@@ -102,7 +102,7 @@
 
 .btn-secondary {
   background: transparent;
-  color: var(--primary);
+  color: var(--text-primary);
   padding: 14px 32px;
   border-radius: 50px;
   font-weight: 600;
@@ -153,7 +153,7 @@
   color: var(--accent-contrast);
 }
 
-.hero-card-title { font-size: 18px; font-weight: 700; color: var(--primary); }
+.hero-card-title { font-size: 18px; font-weight: 700; color: var(--text-primary); }
 .hero-card-subtitle { font-size: 13px; color: var(--text-muted); }
 .hero-card-items { display: flex; flex-direction: column; gap: 12px; }
 
@@ -208,5 +208,5 @@
   color: var(--success);
 }
 
-.hero-floating-text { font-size: 13px; font-weight: 600; color: var(--primary); }
+.hero-floating-text { font-size: 13px; font-weight: 600; color: var(--text-primary); }
 .hero-floating-sub { font-size: 11px; color: var(--text-muted); }

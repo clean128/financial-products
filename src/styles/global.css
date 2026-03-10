@@ -7,30 +7,30 @@
 }
 
 :root {
-  --bg-primary: #ffffff;
-  --bg-secondary: #f4f4f4;
-  --bg-card: #ffffff;
-  --bg-card-hover: #fafafa;
+  --bg-primary: #000000;
+  --bg-secondary: #0f0f0f;
+  --bg-card: #1a1a1a;
+  --bg-card-hover: #222222;
   --accent: #e5c576;
   --accent-light: #f0d590;
   --accent-dark: #c9a84e;
   --accent-rgb: 229, 197, 118;
   --primary: #444545;
   --primary-dark: #32373c;
-  --text-primary: #333333;
-  --text-secondary: #666666;
-  --text-muted: #888888;
-  --border: #e0e0e0;
-  --border-light: #eeeeee;
-  --footer-bg: #eef2f5;
+  --text-primary: #f1f1f1;
+  --text-secondary: #a0a0a0;
+  --text-muted: #6b6b6b;
+  --border: #2a2a2a;
+  --border-light: #333333;
+  --footer-bg: #0a0a0a;
   --success: #10B981;
   --error: #EF4444;
   --gradient-accent: linear-gradient(135deg, #e5c576, #c9a84e);
   --gradient-dark: linear-gradient(135deg, #444545, #32373c);
-  --gradient-hero: linear-gradient(135deg, rgba(var(--accent-rgb), 0.08) 0%, rgba(255, 255, 255, 0.95) 50%);
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.1);
+  --gradient-hero: linear-gradient(135deg, rgba(var(--accent-rgb), 0.08) 0%, rgba(0, 0, 0, 0.98) 50%);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
   --shadow-glow: 0 0 20px rgba(var(--accent-rgb), 0.25);
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -90,7 +90,7 @@ input, select, textarea { font-family: inherit; outline: none; }
   font-weight: 700;
   margin-bottom: 16px;
   line-height: 1.2;
-  color: var(--primary);
+  color: var(--text-primary);
 }
 
 .section-subtitle {
@@ -103,6 +103,6 @@ input, select, textarea { font-family: inherit; outline: none; }
 
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--bg-secondary); }
-::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
 ::selection { background: rgba(var(--accent-rgb), 0.3); color: var(--text-primary); }

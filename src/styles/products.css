@@ -52,7 +52,7 @@
   margin-bottom: 20px;
 }
 
-.product-name { font-size: 17px; font-weight: 700; margin-bottom: 8px; color: var(--primary); }
+.product-name { font-size: 17px; font-weight: 700; margin-bottom: 8px; color: var(--text-primary); }
 .product-desc { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
 
 .product-selected-badge {

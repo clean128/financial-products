@@ -14,7 +14,7 @@
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 1.2;
-  color: var(--primary);
+  color: var(--text-primary);
 }
 
 .form-info-desc {
@@ -48,7 +48,7 @@
   flex-shrink: 0;
 }
 
-.form-benefit-text { font-size: 14px; font-weight: 500; color: var(--primary); }
+.form-benefit-text { font-size: 14px; font-weight: 500; color: var(--text-primary); }
 
 .form-container {
   background: var(--bg-card);
@@ -58,7 +58,7 @@
   box-shadow: var(--shadow-lg);
 }
 
-.form-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; color: var(--primary); }
+.form-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; color: var(--text-primary); }
 .form-subtitle { font-size: 14px; color: var(--text-muted); margin-bottom: 28px; }
 
 .form-type-toggle {
