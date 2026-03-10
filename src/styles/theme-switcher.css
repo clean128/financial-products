@@ -61,7 +61,7 @@
   border: none;
   border-radius: var(--radius-sm);
   background: transparent;
-  color: var(--text-primary);
+  color: #1a1a1a;
   font-size: 14px;
   font-weight: 500;
   text-align: left;
@@ -70,11 +70,11 @@
 }
 
 .theme-switcher-option:hover {
-  background: var(--bg-secondary);
+  background: #f0f0f0;
 }
 
 .theme-switcher-option.selected {
-  background: rgba(var(--accent-rgb), 0.12);
+  background: rgba(var(--accent-rgb), 0.2);
   color: var(--accent-dark);
 }
 

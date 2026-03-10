@@ -47,13 +47,13 @@
   color: var(--text-muted);
   line-height: 1.6;
   text-align: center;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--border);
   padding: 16px 0;
   margin-bottom: 0;
 }
 
 .footer-bottom {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--border);
   padding-top: 20px;
   display: flex;
   justify-content: space-between;

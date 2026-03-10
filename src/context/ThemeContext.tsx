@@ -36,7 +36,7 @@ function applyTheme(theme: Theme) {
   )
   root.style.setProperty(
     '--gradient-hero',
-    `linear-gradient(135deg, rgba(${theme.accentRgb}, 0.08) 0%, rgba(255, 255, 255, 0.95) 50%)`
+    `linear-gradient(135deg, rgba(${theme.accentRgb}, 0.1) 0%, rgba(0, 0, 0, 0.98) 50%)`
   )
   root.style.setProperty(
     '--shadow-glow',
