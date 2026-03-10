@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import ThemeSwitcher from './components/ThemeSwitcher'
 import Products from './components/Products'
 import LeadForm from './components/LeadForm'
 import QRSection from './components/QRSection'
@@ -20,7 +21,7 @@ export default function App() {
 
   return (
     <>
-      <Header />
+      <Header themeSwitcher={<ThemeSwitcher />} />
       <Hero />
       <Products selectedProduct={selectedProduct} onSelect={handleProductSelect} />
       <LeadForm

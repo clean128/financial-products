@@ -1,8 +1,11 @@
 import { Repeat } from 'lucide-react'
 import { QRCodeSVG } from 'qrcode.react'
 import { LANDING_URL } from '../data/products'
+import { useTheme } from '../context/ThemeContext'
 
 export default function QRSection() {
+  const { theme } = useTheme()
+  const primaryColor = theme.primary ?? '#444545'
   return (
     <section className="qr-section section" id="qrcode">
       <div className="container">
@@ -23,7 +26,7 @@ export default function QRSection() {
               value={LANDING_URL}
               size={200}
               bgColor="#ffffff"
-              fgColor="#444545"
+              fgColor={primaryColor}
               level="H"
               includeMargin={false}
             />

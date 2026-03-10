@@ -20,6 +20,12 @@
   justify-content: space-between;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -29,14 +35,14 @@
 .logo-icon {
   width: 40px;
   height: 40px;
-  background: var(--gradient-gold);
+  background: var(--gradient-accent);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
   font-size: 20px;
-  color: var(--primary-dark);
+  color: var(--accent-contrast);
 }
 
 .logo-text {
@@ -57,8 +63,8 @@
 }
 
 .header-cta {
-  background: var(--gradient-gold);
-  color: var(--primary-dark);
+  background: var(--gradient-accent);
+  color: var(--accent-contrast);
   padding: 10px 24px;
   border-radius: 50px;
   font-weight: 600;

@@ -25,7 +25,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--gradient-gold);
+  background: var(--gradient-accent);
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -43,7 +43,7 @@
 .product-icon {
   width: 52px;
   height: 52px;
-  background: rgba(229, 197, 118, 0.12);
+  background: rgba(var(--accent-rgb), 0.12);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
@@ -66,5 +66,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primary-dark);
+  color: var(--accent-contrast);
 }

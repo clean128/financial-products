@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 
-export default function Header() {
+interface HeaderProps {
+  themeSwitcher?: React.ReactNode
+}
+
+export default function Header({ themeSwitcher }: HeaderProps) {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -25,9 +29,12 @@ export default function Header() {
         >
           {menuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
-        <a href="#formulario" className="header-cta">
-          <span>Solicitar Crédito</span>
-        </a>
+        <div className="header-actions">
+          {themeSwitcher}
+          <a href="#formulario" className="header-cta">
+            <span>Solicitar Crédito</span>
+          </a>
+        </div>
       </div>
     </header>
   )
