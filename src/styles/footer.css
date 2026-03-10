@@ -15,7 +15,7 @@
 
 .footer-brand { max-width: 320px; }
 
-.footer .logo-text { color: var(--text-primary); }
+.footer .logo-text { color: var(--text-secondary); }
 .footer .logo-text span { color: var(--accent); }
 
 .footer-brand-desc {
@@ -29,7 +29,7 @@
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 16px;
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 .footer-links-group a {
